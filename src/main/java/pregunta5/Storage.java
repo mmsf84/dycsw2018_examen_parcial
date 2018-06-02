@@ -1,0 +1,23 @@
+package pregunta5;
+
+public class Storage {
+    protected StorageType type;
+    protected StorageSize size;
+    protected float price;
+    
+    public StorageType getType() {
+        return type;
+    }
+    
+    public StorageSize getSize() {
+        return size;
+    }
+    
+    public float getPrice() {
+        return price;
+    }
+    
+    public String toString() {
+        return this.type.toString() + " | " + this.size.toString() + " | " + this.price;
+    }
+}
